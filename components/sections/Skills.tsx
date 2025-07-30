@@ -323,9 +323,7 @@ const Skills = () => {
                           src={skill.logo} 
                           alt={skill.name}
                           className="w-8 h-8 object-contain"
-                          onError={(e) => {
-                            e.target.style.display = 'none';
-                          }}
+                          onError={(e) => ((e.target as HTMLImageElement).style.display = 'none')}
                         />
                         <span>{skill.name}</span>
                       </a>

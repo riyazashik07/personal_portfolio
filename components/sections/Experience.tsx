@@ -93,7 +93,7 @@ const Experience = () => {
     },
   ];
 
-  const TimelineItem = ({ item, index, isWork = true }) => (
+  const TimelineItem = ({ item, index, isWork = true }: any) => (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}

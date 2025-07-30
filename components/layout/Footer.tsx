@@ -128,7 +128,7 @@ const Footer = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.6 }}
-              className="space-y-2 text-gray-400"
+              // className="space-y-2 text-gray-400"
               className="space-y-2 text-gray-400 dark:text-gray-500"
             >
               <p>Chennai, India</p>
